@@ -9,9 +9,10 @@ export default {
      type: "string",
    },
    {
-     title: 'Profile',
-     name: 'profile',
-     type: 'image'
+     title: 'Person',
+     name: 'person',
+     type: 'reference',
+     to: [{type: 'person'}]
    },
    {
      title: 'Cover',

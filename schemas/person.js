@@ -13,5 +13,11 @@ export default {
      name: 'profile',
      type: 'image'
    },
+   {
+     title: 'Roles',
+     name: 'roles',
+     type: 'array',
+     of: [{type: 'string'}]
+   },
  ]
 }
