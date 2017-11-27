@@ -26,6 +26,17 @@ export default {
       title: "Content",
       name: "content",
       type: "text",
-    }
+    },
+    {
+      title: 'Additional Images',
+      name: 'additionalImages',
+      type: 'array',
+      of: [{type: 'image'}]
+    },
+    {
+      title: "Secondary Title",
+      name: "secondaryTitle",
+      type: "string",
+    },
   ]
 }
