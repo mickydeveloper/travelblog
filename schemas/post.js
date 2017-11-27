@@ -38,5 +38,10 @@ export default {
       name: "secondaryTitle",
       type: "string",
     },
+    {
+      title: "Secondary Content",
+      name: "secondaryContent",
+      type: "text",
+    },
   ]
 }

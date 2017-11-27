@@ -14,9 +14,24 @@ export default {
      type: 'image'
    },
    {
+     title: 'Cover',
+     name: 'cover',
+     type: 'image'
+   },
+   {
      title: "Content",
      name: "content",
      type: "text",
-   }
+   },
+   {
+     title: "Secondary Title",
+     name: "secondaryTitle",
+     type: "string",
+   },
+   {
+     title: "Secondary Content",
+     name: "secondaryContent",
+     type: "text",
+   },
  ]
 }
